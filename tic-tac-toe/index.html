@@ -24,6 +24,47 @@
     </div>
     <button id="restart">Начать заново</button>
 
+    <div class="container">
+        <h1>Профиль пользователя</h1>
+        
+        <div class="profile-wrapper">
+            <div class="form-section">
+                <h2>Введите данные</h2>
+                <form id="userForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Введите ваше имя">
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="number" id="age" name="age" placeholder="Введите ваш возраст">
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="text" id="city" name="city" placeholder="Введите ваш город">
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="text" id="hobby" name="hobby" placeholder="Введите ваше хобби">
+                    </div>
+                    
+                    <div class="form-buttons">
+                        <button type="submit" class="btn btn-primary">Сохранить профиль</button>
+                        <button type="button" id="clearBtn" class="btn btn-secondary">Очистить данные</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="profile-section">
+                <h2>Информация профиля</h2>
+                <div id="profileInfo" class="profile-info">
+                    <div class="profile-placeholder">
+                        <p>Заполните форму и нажмите "Сохранить профиль"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="main.js"></script>
 </body>
 </html>
